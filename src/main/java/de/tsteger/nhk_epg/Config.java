@@ -19,7 +19,7 @@ public class Config {
 	private Config() {
 		super();
 		
-		this.apiUrl = "https://nwapi.nhk.jp/nhkworld/epg/v7b/world/s%d-e%d.json";
+		this.apiUrl = "https://masterpl.hls.nhkworld.jp/epg/w/%s.json";
 		this.days = 1;
 		this.outputFile = "out.xml";
 	}
